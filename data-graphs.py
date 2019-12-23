@@ -13,10 +13,10 @@ def create_model(first_param_name: str, second_param_name: str, first_data: list
     p2 = plt.bar(ind, second_data, width,
                  bottom=first_data)
 
-    minimum = 0
-    maximum = 100
+    # minimum = 0
+    # maximum = 100
 
-    step = 10
+    # step = 10
 
     plt.title(f'{first_param_name} and {second_param_name}')
     plt.xticks(ind, ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10'))
