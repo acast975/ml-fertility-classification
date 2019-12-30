@@ -25,7 +25,7 @@ def create_model(model_name: str, num_iter: int, class_weight: dict):
     return d[model_name]
 
 
-data_file_name = "./fertility_Diagnosis.csv"
+data_file_name = "./files/fertility_Diagnosis.csv"
 
 data_columns = [
     'Season',
