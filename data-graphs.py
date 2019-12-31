@@ -25,7 +25,7 @@ def create_model(first_param_name: str, second_param_name: str, first_data: list
     plt.show()
 
 #
-# data_file_name = "./fertilityDiagnosis.txt"
+# data_file_name = "./files/fertilityDiagnosis.txt"
 # with open(data_file_name, 'r') as f:
 #     dataset = [[float(num) for num in line.split(',')] for line in f]
 #
